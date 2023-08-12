@@ -27,7 +27,8 @@ jobs:
       - name: push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v2.6.0
         with:
-          author: Ctyring
+          committer: Ctyring <173479693@qq.com>
+          author: Ctyring <173479693@qq.com>
           target_branch: output
           build_dir: dist
         env:
